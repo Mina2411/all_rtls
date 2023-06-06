@@ -42,7 +42,7 @@ begin: comb_proc
         v_icached = 1'b0;
     end else if ((i_iaddr & (~IO1_MASK)) == IO1_BAR) begin
         v_icached = 1'b0;
-    end
+    end 
 
     v_dcached = 1'b1;
     if ((i_daddr & (~CLINT_MASK)) == CLINT_BAR) begin
@@ -51,7 +51,9 @@ begin: comb_proc
         v_dcached = 1'b0;
     end else if ((i_daddr & (~IO1_MASK)) == IO1_BAR) begin
         v_dcached = 1'b0;
-    end
+    end else if ((i_daddr & (~new_slave_MASK)) == new_slave_BAR) begin //uncaching the new slave peripheral
+        v_dcached = 1'b0;
+    end 
 
 
     o_icached = v_icached;

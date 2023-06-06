@@ -27,6 +27,9 @@ logic [CFG_SYSBUS_DATA_BITS-1:0] wb_req_wdata;
 logic [CFG_SYSBUS_DATA_BYTES-1:0] wb_req_wstrb;
 logic w_req_last;
 logic [CFG_SYSBUS_DATA_BITS-1:0] wb_rdata;
+localparam program_file = "/home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld";
+localparam program_fi_HEX = {program_file , ".hex"};
+
 
 axi_slv #(
    .async_reset(async_reset),

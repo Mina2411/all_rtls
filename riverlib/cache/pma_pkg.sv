@@ -23,5 +23,7 @@ localparam bit [CFG_CPU_ADDR_BITS-1:0] PLIC_BAR = 48'h00000c000000;
 localparam bit [CFG_CPU_ADDR_BITS-1:0] PLIC_MASK = 48'h000003ffffff;// 64 MB
 localparam bit [CFG_CPU_ADDR_BITS-1:0] IO1_BAR = 48'h000010000000;
 localparam bit [CFG_CPU_ADDR_BITS-1:0] IO1_MASK = 48'h0000000fffff;// 1 MB
+localparam bit [CFG_CPU_ADDR_BITS-1:0] new_slave_BAR = 48'h0000100000000;
+localparam bit [CFG_CPU_ADDR_BITS-1:0] new_slave_MASK = 48'h0000010000000;
 
 endpackage: pma_pkg
