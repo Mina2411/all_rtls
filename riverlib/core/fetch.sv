@@ -75,18 +75,21 @@ begin: comb_proc
     end
     WaitReqAccept: begin
         if (i_mem_req_ready == 1'b1) begin
+            $display("I reached final stage 1");
             v.req_valid = (i_bp_valid && (~i_progbuf_ena));
             v.req_addr = i_bp_pc;
             v.mem_resp_shadow = r.req_addr;
             v.resp_ready = 1'b1;
             v.state = WaitResp;
         end else if (i_bp_valid == 1'b1) begin
+            $display("I reached second if");
             // re-write requested address (while it wasn't accepted)
             v.req_addr = i_bp_pc;
         end
     end
     WaitResp: begin
         if (i_mem_data_valid == 1'b1) begin
+            $display("I reached final stage");
             v.pc = i_mem_data_addr;
             v.instr = i_mem_data;
             v.instr_load_fault = i_mem_load_fault;

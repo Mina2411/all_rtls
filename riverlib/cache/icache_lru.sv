@@ -144,7 +144,6 @@ begin: comb_proc
     vb_addr_direct_next = 0;
 
     v = r;
-
     sel_cached = int'(r.req_addr[(CFG_LOG2_L1CACHE_BYTES_PER_LINE - 1): 2]);
     sel_uncached = int'(r.req_addr[2: 2]);
     vb_cached_data = line_rdata_o[(32 * sel_cached) +: 64];
@@ -176,6 +175,7 @@ begin: comb_proc
     case (r.state)
     State_Idle: begin
         v_ready_next = 1'b1;
+        //$display("v_ready_next is state_Idle,%b",v_ready_next);
     end
     State_CheckHit: begin
         vb_resp_data = vb_cached_data;
@@ -291,7 +291,6 @@ begin: comb_proc
         v_direct_access = 1'b1;
         v_line_cs_write = 1'b1;
         v.state = State_Reset;
-
         if ((|r.flush_cnt) == 1'b1) begin
             v.flush_cnt = (r.flush_cnt - 1);
             v.req_addr = vb_addr_direct_next;
@@ -348,6 +347,7 @@ begin: comb_proc
     o_resp_addr = r.req_addr;
     o_resp_load_fault = v_resp_er_load_fault;
     o_mpu_addr = r.req_addr;
+
 
     rin = v;
 end: comb_proc

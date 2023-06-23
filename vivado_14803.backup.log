@@ -1,0 +1,2066 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jun  8 10:06:41 2023
+# Process ID: 14803
+# Current directory: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls
+# Command line: vivado
+# Log file: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/vivado.log
+# Journal file: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/vivado.jou
+# Running On: i80node2, OS: Linux, CPU Frequency: 3457.104 MHz, CPU Physical cores: 4, Host memory: 33521 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Software/xilinx/2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2022.2/Vivado/2022.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Software/xilinx/2022.2/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/Software/xilinx/2022.2/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'kc705_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_kc705
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_cfg_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AluLogic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_gpio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_gpio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_pnp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_pnp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_prci
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_spi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_new_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_new_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_sram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_sram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus0_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axictrl_bus0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchPredictor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpBTB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpPreDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CacheTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/clint.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CsrRegs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Double2Long
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DbgPort
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRvc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmidebug
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/types_river_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DummyCpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrExecute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleAdd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrFetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FpuTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/ibuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_axi4_to_l1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_csr_m2_s1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_dport
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ICacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idiv53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/idsbuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idsbuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imul53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntAddSub
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/iobuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iobuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagcdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagtap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagtap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Amba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Destination
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2CacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Long2Double
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Dummy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2SerDes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/lrunway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lrunway
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemAccess
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mmu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/obuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module obuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/plic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module plic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMA
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/queue.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Queue
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_cache_bwe_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_cache_bwe_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_fpga_distr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_fpga_distr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mmu_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegIntBank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverAmba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_2x32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_2x32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/sdcard/sd_hc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_hc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/sfifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sfifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/sram8_inferred_init.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram8_inferred_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/srambytes_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srambytes_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StackTraceBuffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemcoupled.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemCoupled
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemnway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemNWay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tracer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Workgroup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/zeroenc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroenc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.types_amba_pkg
+Compiling package xil_defaultlib.config_target_pkg
+Compiling package xil_defaultlib.apb_prci_pkg
+Compiling package xil_defaultlib.apb_slv_pkg
+Compiling package xil_defaultlib.types_bus0_pkg
+Compiling package xil_defaultlib.types_bus1_pkg
+Compiling package xil_defaultlib.riscv_soc_pkg
+Compiling package xil_defaultlib.river_cfg_pkg
+Compiling package xil_defaultlib.types_river_pkg
+Compiling package xil_defaultlib.workgroup_pkg
+Compiling package xil_defaultlib.axi_slv_pkg
+Compiling package xil_defaultlib.axi2apb_pkg
+Compiling package xil_defaultlib.dmidebug_pkg
+Compiling package xil_defaultlib.jtagcdc_pkg
+Compiling package xil_defaultlib.ic_dport_pkg
+Compiling package xil_defaultlib.ic_axi4_to_l1_pkg
+Compiling package xil_defaultlib.river_amba_pkg
+Compiling package xil_defaultlib.river_top_pkg
+Compiling package xil_defaultlib.proc_pkg
+Compiling package xil_defaultlib.mmu_pkg
+Compiling package xil_defaultlib.fetch_pkg
+Compiling package xil_defaultlib.decoder_pkg
+Compiling package xil_defaultlib.dec_rv_pkg
+Compiling package xil_defaultlib.dec_rvc_pkg
+Compiling package xil_defaultlib.execute_pkg
+Compiling package xil_defaultlib.alu_logic_pkg
+Compiling package xil_defaultlib.int_addsub_pkg
+Compiling package xil_defaultlib.int_mul_pkg
+Compiling package xil_defaultlib.int_div_pkg
+Compiling package xil_defaultlib.divstage64_pkg
+Compiling package xil_defaultlib.shift_pkg
+Compiling package xil_defaultlib.fpu_top_pkg
+Compiling package xil_defaultlib.fadd_d_pkg
+Compiling package xil_defaultlib.fdiv_d_pkg
+Compiling package xil_defaultlib.idiv53_pkg
+Compiling package xil_defaultlib.divstage53_pkg
+Compiling package xil_defaultlib.fmul_d_pkg
+Compiling package xil_defaultlib.imul53_pkg
+Compiling package xil_defaultlib.d2l_d_pkg
+Compiling package xil_defaultlib.l2d_d_pkg
+Compiling package xil_defaultlib.memaccess_pkg
+Compiling package xil_defaultlib.bp_pkg
+Compiling package xil_defaultlib.bp_predec_pkg
+Compiling package xil_defaultlib.bp_btb_pkg
+Compiling package xil_defaultlib.regibank_pkg
+Compiling package xil_defaultlib.ic_csr_m2_s1_pkg
+Compiling package xil_defaultlib.csr_pkg
+Compiling package xil_defaultlib.dbg_port_pkg
+Compiling package xil_defaultlib.stacktrbuf_pkg
+Compiling package xil_defaultlib.cache_top_pkg
+Compiling package xil_defaultlib.icache_lru_pkg
+Compiling package xil_defaultlib.dcache_lru_pkg
+Compiling package xil_defaultlib.pma_pkg
+Compiling package xil_defaultlib.pmp_pkg
+Compiling package xil_defaultlib.dummycpu_pkg
+Compiling package xil_defaultlib.l2dummy_pkg
+Compiling package xil_defaultlib.l2serdes_pkg
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.ibuf_tech
+Compiling module unisims_ver.IBUFDS
+Compiling module xil_defaultlib.idsbuf_tech
+Compiling module unisims_ver.OBUF_2
+Compiling module xil_defaultlib.obuf_tech
+Compiling module unisims_ver.IOBUF_2
+Compiling module xil_defaultlib.iobuf_tech
+Compiling module xil_defaultlib.apb_slv(vid=32'b011110010)
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.SysPLL_kc705
+Compiling module xil_defaultlib.SysPLL_tech
+Compiling module xil_defaultlib.apb_prci_default
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axictrl_bus0(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axi2apb_default
+Compiling module xil_defaultlib.jtagtap_default
+Compiling module xil_defaultlib.jtagcdc_default
+Compiling module xil_defaultlib.dmidebug_default
+Compiling module xil_defaultlib.ic_dport_default
+Compiling module xil_defaultlib.ic_axi4_to_l1_default
+Compiling module xil_defaultlib.ram_mmu_tech(dbits=116)
+Compiling module xil_defaultlib.Mmu_default
+Compiling module xil_defaultlib.InstrFetch_default
+Compiling module xil_defaultlib.DecoderRv_default
+Compiling module xil_defaultlib.DecoderRvc_default
+Compiling module xil_defaultlib.InstrDecoder_default
+Compiling module xil_defaultlib.AluLogic_default
+Compiling module xil_defaultlib.IntAddSub_default
+Compiling module xil_defaultlib.IntMul_default
+Compiling module xil_defaultlib.divstage64
+Compiling module xil_defaultlib.IntDiv_default
+Compiling module xil_defaultlib.Shifter_default
+Compiling module xil_defaultlib.DoubleAdd_default
+Compiling module xil_defaultlib.divstage53
+Compiling module xil_defaultlib.idiv53_default
+Compiling module xil_defaultlib.DoubleDiv_default
+Compiling module xil_defaultlib.zeroenc_default
+Compiling module xil_defaultlib.imul53_default
+Compiling module xil_defaultlib.DoubleMul_default
+Compiling module xil_defaultlib.Double2Long_default
+Compiling module xil_defaultlib.Long2Double_default
+Compiling module xil_defaultlib.FpuTop_default
+Compiling module xil_defaultlib.InstrExecute_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=317)
+Compiling module xil_defaultlib.MemAccess_default
+Compiling module xil_defaultlib.BpPreDecoder
+Compiling module xil_defaultlib.BpBTB_default
+Compiling module xil_defaultlib.BranchPredictor_default
+Compiling module xil_defaultlib.RegIntBank_default
+Compiling module xil_defaultlib.ic_csr_m2_s1_default
+Compiling module xil_defaultlib.CsrRegs(hartid=32'b0)
+Compiling module xil_defaultlib.StackTraceBuffer
+Compiling module xil_defaultlib.DbgPort_default
+Compiling module xil_defaultlib.Processor(hartid=32'b0,tracer_en...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(dbits=256)
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=38)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=38)
+Compiling module xil_defaultlib.TagMem(abus=48,flbits=1)
+Compiling module xil_defaultlib.lrunway_default
+Compiling module xil_defaultlib.TagMemNWay(abus=48,flbits=1)
+Compiling module xil_defaultlib.TagMemCoupled(abus=48,ibits=7,fl...
+Compiling module xil_defaultlib.ICacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(abits=7,dbits...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=40)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=40)
+Compiling module xil_defaultlib.TagMem(abus=48,ibits=7,snoop=1)
+Compiling module xil_defaultlib.lrunway(abits=7)
+Compiling module xil_defaultlib.TagMemNWay(abus=48,ibits=7,snoop...
+Compiling module xil_defaultlib.DCacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.PMA
+Compiling module xil_defaultlib.PMP_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=55)
+Compiling module xil_defaultlib.CacheTop(ilog2_nways=32'b010,ilo...
+Compiling module xil_defaultlib.RiverTop(hartid=32'b0,tracer_ena...
+Compiling module xil_defaultlib.RiverAmba(tracer_ena=1'b0,ilog2_...
+Compiling module xil_defaultlib.DummyCpu
+Compiling module xil_defaultlib.L2Dummy_default
+Compiling module xil_defaultlib.L2SerDes_default
+Compiling module xil_defaultlib.Workgroup(cpu_num=32'b01,ilog2_n...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_2x32(abits=13,filen...
+Compiling module xil_defaultlib.rom_tech(abits=16,filename="/hom...
+Compiling module xil_defaultlib.axi4_rom(abits=16,async_reset=1'...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=15,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=15,dbits=8)
+Compiling module xil_defaultlib.srambytes_tech(abits=18)
+Compiling module xil_defaultlib.axi4_sram(abits=18)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.Riscv_slave_default
+Compiling module xil_defaultlib.Riscv_slave_tech_default
+Compiling module xil_defaultlib.axi4_new_slave
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.clint(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.plic(async_reset=1'b0,ctxmax=9,i...
+Compiling module xil_defaultlib.apb_uart_default
+Compiling module xil_defaultlib.apb_gpio_default
+Compiling module xil_defaultlib.sfifo(log2_depth=9)
+Compiling module xil_defaultlib.apb_spi_default
+Compiling module xil_defaultlib.apb_pnp(cfg_slots=14,hw_id=32'b0...
+Compiling module xil_defaultlib.riscv_soc
+Compiling module xil_defaultlib.kc705_top(SIM_BYPASS_INIT_CAL="F...
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.sim_uart_receiver
+Compiling module xil_defaultlib.sim_uart_rx(p_uart_clk_half_peri...
+Compiling module xil_defaultlib.sd_hc
+Compiling module xil_defaultlib.kc705_top_tb
+Built simulation snapshot kc705_top_tb_behav
+execute_script: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 7376.441 ; gain = 1.996 ; free physical = 15294 ; free virtual = 42913
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "kc705_top_tb_behav -key {Behavioral:sim_1:Functional:kc705_top_tb} -tclbatch {kc705_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source kc705_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_lo.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_hi.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+UART log path is not set!
+Using default log file:
+uart_0.log
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'kc705_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:37 ; elapsed = 00:00:18 . Memory (MB): peak = 7432.461 ; gain = 58.016 ; free physical = 15207 ; free virtual = 42825
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0/ROM}} 
+remove_forces { {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/address} {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/clk} {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/data} }
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Software/xilinx/2022.2/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/Software/xilinx/2022.2/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'kc705_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_kc705
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_cfg_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AluLogic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_gpio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_gpio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_pnp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_pnp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_prci
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_spi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_new_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_new_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_sram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_sram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus0_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axictrl_bus0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchPredictor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpBTB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpPreDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CacheTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/clint.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CsrRegs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Double2Long
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DbgPort
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRvc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmidebug
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/types_river_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DummyCpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrExecute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleAdd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrFetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FpuTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/ibuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_axi4_to_l1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_csr_m2_s1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_dport
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ICacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idiv53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/idsbuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idsbuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imul53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntAddSub
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/iobuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iobuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagcdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagtap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagtap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Amba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Destination
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2CacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Long2Double
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Dummy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2SerDes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/lrunway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lrunway
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemAccess
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mmu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/obuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module obuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/plic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module plic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMA
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/queue.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Queue
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_cache_bwe_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_cache_bwe_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_fpga_distr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_fpga_distr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mmu_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegIntBank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverAmba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_2x32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_2x32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/sdcard/sd_hc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_hc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/sfifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sfifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/sram8_inferred_init.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram8_inferred_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/srambytes_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srambytes_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StackTraceBuffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemcoupled.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemCoupled
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemnway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemNWay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tracer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Workgroup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/zeroenc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroenc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.types_amba_pkg
+Compiling package xil_defaultlib.config_target_pkg
+Compiling package xil_defaultlib.apb_prci_pkg
+Compiling package xil_defaultlib.apb_slv_pkg
+Compiling package xil_defaultlib.types_bus0_pkg
+Compiling package xil_defaultlib.types_bus1_pkg
+Compiling package xil_defaultlib.riscv_soc_pkg
+Compiling package xil_defaultlib.river_cfg_pkg
+Compiling package xil_defaultlib.types_river_pkg
+Compiling package xil_defaultlib.workgroup_pkg
+Compiling package xil_defaultlib.axi_slv_pkg
+Compiling package xil_defaultlib.axi2apb_pkg
+Compiling package xil_defaultlib.dmidebug_pkg
+Compiling package xil_defaultlib.jtagcdc_pkg
+Compiling package xil_defaultlib.ic_dport_pkg
+Compiling package xil_defaultlib.ic_axi4_to_l1_pkg
+Compiling package xil_defaultlib.river_amba_pkg
+Compiling package xil_defaultlib.river_top_pkg
+Compiling package xil_defaultlib.proc_pkg
+Compiling package xil_defaultlib.mmu_pkg
+Compiling package xil_defaultlib.fetch_pkg
+Compiling package xil_defaultlib.decoder_pkg
+Compiling package xil_defaultlib.dec_rv_pkg
+Compiling package xil_defaultlib.dec_rvc_pkg
+Compiling package xil_defaultlib.execute_pkg
+Compiling package xil_defaultlib.alu_logic_pkg
+Compiling package xil_defaultlib.int_addsub_pkg
+Compiling package xil_defaultlib.int_mul_pkg
+Compiling package xil_defaultlib.int_div_pkg
+Compiling package xil_defaultlib.divstage64_pkg
+Compiling package xil_defaultlib.shift_pkg
+Compiling package xil_defaultlib.fpu_top_pkg
+Compiling package xil_defaultlib.fadd_d_pkg
+Compiling package xil_defaultlib.fdiv_d_pkg
+Compiling package xil_defaultlib.idiv53_pkg
+Compiling package xil_defaultlib.divstage53_pkg
+Compiling package xil_defaultlib.fmul_d_pkg
+Compiling package xil_defaultlib.imul53_pkg
+Compiling package xil_defaultlib.d2l_d_pkg
+Compiling package xil_defaultlib.l2d_d_pkg
+Compiling package xil_defaultlib.memaccess_pkg
+Compiling package xil_defaultlib.bp_pkg
+Compiling package xil_defaultlib.bp_predec_pkg
+Compiling package xil_defaultlib.bp_btb_pkg
+Compiling package xil_defaultlib.regibank_pkg
+Compiling package xil_defaultlib.ic_csr_m2_s1_pkg
+Compiling package xil_defaultlib.csr_pkg
+Compiling package xil_defaultlib.dbg_port_pkg
+Compiling package xil_defaultlib.stacktrbuf_pkg
+Compiling package xil_defaultlib.cache_top_pkg
+Compiling package xil_defaultlib.icache_lru_pkg
+Compiling package xil_defaultlib.dcache_lru_pkg
+Compiling package xil_defaultlib.pma_pkg
+Compiling package xil_defaultlib.pmp_pkg
+Compiling package xil_defaultlib.dummycpu_pkg
+Compiling package xil_defaultlib.l2dummy_pkg
+Compiling package xil_defaultlib.l2serdes_pkg
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.ibuf_tech
+Compiling module unisims_ver.IBUFDS
+Compiling module xil_defaultlib.idsbuf_tech
+Compiling module unisims_ver.OBUF_2
+Compiling module xil_defaultlib.obuf_tech
+Compiling module unisims_ver.IOBUF_2
+Compiling module xil_defaultlib.iobuf_tech
+Compiling module xil_defaultlib.apb_slv(vid=32'b011110010)
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.SysPLL_kc705
+Compiling module xil_defaultlib.SysPLL_tech
+Compiling module xil_defaultlib.apb_prci_default
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axictrl_bus0(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axi2apb_default
+Compiling module xil_defaultlib.jtagtap_default
+Compiling module xil_defaultlib.jtagcdc_default
+Compiling module xil_defaultlib.dmidebug_default
+Compiling module xil_defaultlib.ic_dport_default
+Compiling module xil_defaultlib.ic_axi4_to_l1_default
+Compiling module xil_defaultlib.ram_mmu_tech(dbits=116)
+Compiling module xil_defaultlib.Mmu_default
+Compiling module xil_defaultlib.InstrFetch_default
+Compiling module xil_defaultlib.DecoderRv_default
+Compiling module xil_defaultlib.DecoderRvc_default
+Compiling module xil_defaultlib.InstrDecoder_default
+Compiling module xil_defaultlib.AluLogic_default
+Compiling module xil_defaultlib.IntAddSub_default
+Compiling module xil_defaultlib.IntMul_default
+Compiling module xil_defaultlib.divstage64
+Compiling module xil_defaultlib.IntDiv_default
+Compiling module xil_defaultlib.Shifter_default
+Compiling module xil_defaultlib.DoubleAdd_default
+Compiling module xil_defaultlib.divstage53
+Compiling module xil_defaultlib.idiv53_default
+Compiling module xil_defaultlib.DoubleDiv_default
+Compiling module xil_defaultlib.zeroenc_default
+Compiling module xil_defaultlib.imul53_default
+Compiling module xil_defaultlib.DoubleMul_default
+Compiling module xil_defaultlib.Double2Long_default
+Compiling module xil_defaultlib.Long2Double_default
+Compiling module xil_defaultlib.FpuTop_default
+Compiling module xil_defaultlib.InstrExecute_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=317)
+Compiling module xil_defaultlib.MemAccess_default
+Compiling module xil_defaultlib.BpPreDecoder
+Compiling module xil_defaultlib.BpBTB_default
+Compiling module xil_defaultlib.BranchPredictor_default
+Compiling module xil_defaultlib.RegIntBank_default
+Compiling module xil_defaultlib.ic_csr_m2_s1_default
+Compiling module xil_defaultlib.CsrRegs(hartid=32'b0)
+Compiling module xil_defaultlib.StackTraceBuffer
+Compiling module xil_defaultlib.DbgPort_default
+Compiling module xil_defaultlib.Processor(hartid=32'b0,tracer_en...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(dbits=256)
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=38)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=38)
+Compiling module xil_defaultlib.TagMem(abus=48,flbits=1)
+Compiling module xil_defaultlib.lrunway_default
+Compiling module xil_defaultlib.TagMemNWay(abus=48,flbits=1)
+Compiling module xil_defaultlib.TagMemCoupled(abus=48,ibits=7,fl...
+Compiling module xil_defaultlib.ICacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(abits=7,dbits...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=40)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=40)
+Compiling module xil_defaultlib.TagMem(abus=48,ibits=7,snoop=1)
+Compiling module xil_defaultlib.lrunway(abits=7)
+Compiling module xil_defaultlib.TagMemNWay(abus=48,ibits=7,snoop...
+Compiling module xil_defaultlib.DCacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.PMA
+Compiling module xil_defaultlib.PMP_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=55)
+Compiling module xil_defaultlib.CacheTop(ilog2_nways=32'b010,ilo...
+Compiling module xil_defaultlib.RiverTop(hartid=32'b0,tracer_ena...
+Compiling module xil_defaultlib.RiverAmba(tracer_ena=1'b0,ilog2_...
+Compiling module xil_defaultlib.DummyCpu
+Compiling module xil_defaultlib.L2Dummy_default
+Compiling module xil_defaultlib.L2SerDes_default
+Compiling module xil_defaultlib.Workgroup(cpu_num=32'b01,ilog2_n...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_2x32(abits=13,filen...
+Compiling module xil_defaultlib.rom_tech(abits=16,filename="/hom...
+Compiling module xil_defaultlib.axi4_rom(abits=16,async_reset=1'...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=15,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=15,dbits=8)
+Compiling module xil_defaultlib.srambytes_tech(abits=18)
+Compiling module xil_defaultlib.axi4_sram(abits=18)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.Riscv_slave_default
+Compiling module xil_defaultlib.Riscv_slave_tech_default
+Compiling module xil_defaultlib.axi4_new_slave
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.clint(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.plic(async_reset=1'b0,ctxmax=9,i...
+Compiling module xil_defaultlib.apb_uart_default
+Compiling module xil_defaultlib.apb_gpio_default
+Compiling module xil_defaultlib.sfifo(log2_depth=9)
+Compiling module xil_defaultlib.apb_spi_default
+Compiling module xil_defaultlib.apb_pnp(cfg_slots=14,hw_id=32'b0...
+Compiling module xil_defaultlib.riscv_soc
+Compiling module xil_defaultlib.kc705_top(SIM_BYPASS_INIT_CAL="F...
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.sim_uart_receiver
+Compiling module xil_defaultlib.sim_uart_rx(p_uart_clk_half_peri...
+Compiling module xil_defaultlib.sd_hc
+Compiling module xil_defaultlib.kc705_top_tb
+Built simulation snapshot kc705_top_tb_behav
+execute_script: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 7490.098 ; gain = 0.000 ; free physical = 12951 ; free virtual = 40589
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+launch_simulation: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 7490.098 ; gain = 0.000 ; free physical = 12951 ; free virtual = 40589
+Time resolution is 1 ps
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_lo.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_hi.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+UART log path is not set!
+Using default log file:
+uart_0.log
+relaunch_sim: Time (s): cpu = 00:00:30 ; elapsed = 00:00:15 . Memory (MB): peak = 7493.496 ; gain = 3.398 ; free physical = 12915 ; free virtual = 40554
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_lo.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File /home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld_hi.hex referenced on /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_receiver.v at line 30 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+UART log path is not set!
+Using default log file:
+uart_0.log
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7493.496 ; gain = 0.000 ; free physical = 12918 ; free virtual = 40556
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Software/xilinx/2022.2/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/Software/xilinx/2022.2/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'kc705_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/Riscv_slave_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Riscv_slave_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_kc705
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SysPLL_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_cfg_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/alu_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AluLogic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_gpio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_gpio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_pnp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_pnp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_prci
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_spi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_new_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_new_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_sram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_sram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_bus0_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axictrl_bus0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchPredictor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_btb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpBTB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/bp_predec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BpPreDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/cache_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CacheTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/clint.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/csr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CsrRegs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/d2l_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Double2Long
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dbg_port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DbgPort
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/dcache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecoderRvc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/divstage53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/divstage64.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divstage64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmidebug
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/types_river_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dummycpu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DummyCpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/execute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrExecute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fadd_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleAdd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fdiv_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrFetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fmul_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/fpu_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FpuTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/ibuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_axi4_to_l1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/ic_csr_m2_s1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_csr_m2_s1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_dport
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/icache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ICacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/idiv53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idiv53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/idsbuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idsbuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/imul53.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imul53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_addsub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntAddSub
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_div.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntDiv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/int_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntMul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/iobuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iobuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagcdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagtap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtagtap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Amba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_dst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Destination
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2cache_lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2CacheLru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/l2d_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Long2Double
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2dummy.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2Dummy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/l2cache/l2serdes.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2SerDes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/lrunway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lrunway
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/memaccess.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemAccess
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mmu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/bufg/obuf_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module obuf_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/plic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module plic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pma.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMA
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PMP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/proc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/queue.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Queue
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_cache_bwe_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_cache_bwe_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_fpga_distr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_fpga_distr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mmu_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/regibank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegIntBank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_amba.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverAmba
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/river_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiverTop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_2x32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_2x32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_inferred_32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_inferred_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/sdcard/sd_hc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_hc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/sfifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sfifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/arith/shift.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/common/vips/uart/sim_uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/sram8_inferred_init.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram8_inferred_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/srambytes_tech.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srambytes_tech
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/stacktrbuf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StackTraceBuffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemcoupled.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemCoupled
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/cache/tagmemnway.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagMemNWay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/tracer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tracer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/workgroup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Workgroup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fpu_d/zeroenc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroenc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kc705_top_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.types_amba_pkg
+Compiling package xil_defaultlib.config_target_pkg
+Compiling package xil_defaultlib.apb_prci_pkg
+Compiling package xil_defaultlib.apb_slv_pkg
+Compiling package xil_defaultlib.types_bus0_pkg
+Compiling package xil_defaultlib.types_bus1_pkg
+Compiling package xil_defaultlib.riscv_soc_pkg
+Compiling package xil_defaultlib.river_cfg_pkg
+Compiling package xil_defaultlib.types_river_pkg
+Compiling package xil_defaultlib.workgroup_pkg
+Compiling package xil_defaultlib.axi_slv_pkg
+Compiling package xil_defaultlib.axi2apb_pkg
+Compiling package xil_defaultlib.dmidebug_pkg
+Compiling package xil_defaultlib.jtagcdc_pkg
+Compiling package xil_defaultlib.ic_dport_pkg
+Compiling package xil_defaultlib.ic_axi4_to_l1_pkg
+Compiling package xil_defaultlib.river_amba_pkg
+Compiling package xil_defaultlib.river_top_pkg
+Compiling package xil_defaultlib.proc_pkg
+Compiling package xil_defaultlib.mmu_pkg
+Compiling package xil_defaultlib.fetch_pkg
+Compiling package xil_defaultlib.decoder_pkg
+Compiling package xil_defaultlib.dec_rv_pkg
+Compiling package xil_defaultlib.dec_rvc_pkg
+Compiling package xil_defaultlib.execute_pkg
+Compiling package xil_defaultlib.alu_logic_pkg
+Compiling package xil_defaultlib.int_addsub_pkg
+Compiling package xil_defaultlib.int_mul_pkg
+Compiling package xil_defaultlib.int_div_pkg
+Compiling package xil_defaultlib.divstage64_pkg
+Compiling package xil_defaultlib.shift_pkg
+Compiling package xil_defaultlib.fpu_top_pkg
+Compiling package xil_defaultlib.fadd_d_pkg
+Compiling package xil_defaultlib.fdiv_d_pkg
+Compiling package xil_defaultlib.idiv53_pkg
+Compiling package xil_defaultlib.divstage53_pkg
+Compiling package xil_defaultlib.fmul_d_pkg
+Compiling package xil_defaultlib.imul53_pkg
+Compiling package xil_defaultlib.d2l_d_pkg
+Compiling package xil_defaultlib.l2d_d_pkg
+Compiling package xil_defaultlib.memaccess_pkg
+Compiling package xil_defaultlib.bp_pkg
+Compiling package xil_defaultlib.bp_predec_pkg
+Compiling package xil_defaultlib.bp_btb_pkg
+Compiling package xil_defaultlib.regibank_pkg
+Compiling package xil_defaultlib.ic_csr_m2_s1_pkg
+Compiling package xil_defaultlib.csr_pkg
+Compiling package xil_defaultlib.dbg_port_pkg
+Compiling package xil_defaultlib.stacktrbuf_pkg
+Compiling package xil_defaultlib.cache_top_pkg
+Compiling package xil_defaultlib.icache_lru_pkg
+Compiling package xil_defaultlib.dcache_lru_pkg
+Compiling package xil_defaultlib.pma_pkg
+Compiling package xil_defaultlib.pmp_pkg
+Compiling package xil_defaultlib.dummycpu_pkg
+Compiling package xil_defaultlib.l2dummy_pkg
+Compiling package xil_defaultlib.l2serdes_pkg
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.ibuf_tech
+Compiling module unisims_ver.IBUFDS
+Compiling module xil_defaultlib.idsbuf_tech
+Compiling module unisims_ver.OBUF_2
+Compiling module xil_defaultlib.obuf_tech
+Compiling module unisims_ver.IOBUF_2
+Compiling module xil_defaultlib.iobuf_tech
+Compiling module xil_defaultlib.apb_slv(vid=32'b011110010)
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.SysPLL_kc705
+Compiling module xil_defaultlib.SysPLL_tech
+Compiling module xil_defaultlib.apb_prci_default
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axictrl_bus0(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.axi2apb_default
+Compiling module xil_defaultlib.jtagtap_default
+Compiling module xil_defaultlib.jtagcdc_default
+Compiling module xil_defaultlib.dmidebug_default
+Compiling module xil_defaultlib.ic_dport_default
+Compiling module xil_defaultlib.ic_axi4_to_l1_default
+Compiling module xil_defaultlib.ram_mmu_tech(dbits=116)
+Compiling module xil_defaultlib.Mmu_default
+Compiling module xil_defaultlib.InstrFetch_default
+Compiling module xil_defaultlib.DecoderRv_default
+Compiling module xil_defaultlib.DecoderRvc_default
+Compiling module xil_defaultlib.InstrDecoder_default
+Compiling module xil_defaultlib.AluLogic_default
+Compiling module xil_defaultlib.IntAddSub_default
+Compiling module xil_defaultlib.IntMul_default
+Compiling module xil_defaultlib.divstage64
+Compiling module xil_defaultlib.IntDiv_default
+Compiling module xil_defaultlib.Shifter_default
+Compiling module xil_defaultlib.DoubleAdd_default
+Compiling module xil_defaultlib.divstage53
+Compiling module xil_defaultlib.idiv53_default
+Compiling module xil_defaultlib.DoubleDiv_default
+Compiling module xil_defaultlib.zeroenc_default
+Compiling module xil_defaultlib.imul53_default
+Compiling module xil_defaultlib.DoubleMul_default
+Compiling module xil_defaultlib.Double2Long_default
+Compiling module xil_defaultlib.Long2Double_default
+Compiling module xil_defaultlib.FpuTop_default
+Compiling module xil_defaultlib.InstrExecute_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=317)
+Compiling module xil_defaultlib.MemAccess_default
+Compiling module xil_defaultlib.BpPreDecoder
+Compiling module xil_defaultlib.BpBTB_default
+Compiling module xil_defaultlib.BranchPredictor_default
+Compiling module xil_defaultlib.RegIntBank_default
+Compiling module xil_defaultlib.ic_csr_m2_s1_default
+Compiling module xil_defaultlib.CsrRegs(hartid=32'b0)
+Compiling module xil_defaultlib.StackTraceBuffer
+Compiling module xil_defaultlib.DbgPort_default
+Compiling module xil_defaultlib.Processor(hartid=32'b0,tracer_en...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(dbits=256)
+Compiling module xil_defaultlib.ram_fpga_distr(abits=6,dbits=38)
+Compiling module xil_defaultlib.ram_tech(abits=6,dbits=38)
+Compiling module xil_defaultlib.TagMem(abus=48,flbits=1)
+Compiling module xil_defaultlib.lrunway_default
+Compiling module xil_defaultlib.TagMemNWay(abus=48,flbits=1)
+Compiling module xil_defaultlib.TagMemCoupled(abus=48,ibits=7,fl...
+Compiling module xil_defaultlib.ICacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=8)
+Compiling module xil_defaultlib.ram_cache_bwe_tech(abits=7,dbits...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=7,dbits=40)
+Compiling module xil_defaultlib.ram_tech(abits=7,dbits=40)
+Compiling module xil_defaultlib.TagMem(abus=48,ibits=7,snoop=1)
+Compiling module xil_defaultlib.lrunway(abits=7)
+Compiling module xil_defaultlib.TagMemNWay(abus=48,ibits=7,snoop...
+Compiling module xil_defaultlib.DCacheLru(waybits=32'b010,ibits=...
+Compiling module xil_defaultlib.PMA
+Compiling module xil_defaultlib.PMP_default
+Compiling module xil_defaultlib.Queue(abits=2,dbits=55)
+Compiling module xil_defaultlib.CacheTop(ilog2_nways=32'b010,ilo...
+Compiling module xil_defaultlib.RiverTop(hartid=32'b0,tracer_ena...
+Compiling module xil_defaultlib.RiverAmba(tracer_ena=1'b0,ilog2_...
+Compiling module xil_defaultlib.DummyCpu
+Compiling module xil_defaultlib.L2Dummy_default
+Compiling module xil_defaultlib.L2SerDes_default
+Compiling module xil_defaultlib.Workgroup(cpu_num=32'b01,ilog2_n...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_32(abits=13,hex_fil...
+Compiling module xil_defaultlib.rom_inferred_2x32(abits=13,filen...
+Compiling module xil_defaultlib.rom_tech(abits=16,filename="/hom...
+Compiling module xil_defaultlib.axi4_rom(abits=16,async_reset=1'...
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.ram_fpga_distr(abits=15,dbits=8)
+Compiling module xil_defaultlib.ram_tech(abits=15,dbits=8)
+Compiling module xil_defaultlib.srambytes_tech(abits=18)
+Compiling module xil_defaultlib.axi4_sram(abits=18)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.Riscv_slave_default
+Compiling module xil_defaultlib.Riscv_slave_tech_default
+Compiling module xil_defaultlib.axi4_new_slave
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.clint(async_reset=1'b0)
+Compiling module xil_defaultlib.axi_slv(vid=32'b011110010,did=32...
+Compiling module xil_defaultlib.plic(async_reset=1'b0,ctxmax=9,i...
+Compiling module xil_defaultlib.apb_uart_default
+Compiling module xil_defaultlib.apb_gpio_default
+Compiling module xil_defaultlib.sfifo(log2_depth=9)
+Compiling module xil_defaultlib.apb_spi_default
+Compiling module xil_defaultlib.apb_pnp(cfg_slots=14,hw_id=32'b0...
+Compiling module xil_defaultlib.riscv_soc
+Compiling module xil_defaultlib.kc705_top(SIM_BYPASS_INIT_CAL="F...
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.sim_uart_receiver
+Compiling module xil_defaultlib.sim_uart_rx(p_uart_clk_half_peri...
+Compiling module xil_defaultlib.sd_hc
+Compiling module xil_defaultlib.kc705_top_tb
+Built simulation snapshot kc705_top_tb_behav
+execute_script: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 7517.512 ; gain = 0.000 ; free physical = 12910 ; free virtual = 40548
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "kc705_top_tb_behav -key {Behavioral:sim_1:Functional:kc705_top_tb} -tclbatch {kc705_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source kc705_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+UART log path is not set!
+Using default log file:
+uart_0.log
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'kc705_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 7518.305 ; gain = 0.793 ; free physical = 12869 ; free virtual = 40508
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+UART log path is not set!
+Using default log file:
+uart_0.log
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 7518.309 ; gain = 0.000 ; free physical = 12884 ; free virtual = 40522
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/kc705_top_tb/tt/soc0/group0/\xslotcpu[0].cpux /river0/proc0/dec0}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+UART log path is not set!
+Using default log file:
+uart_0.log
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 8383.297 ; gain = 864.988 ; free physical = 12436 ; free virtual = 40074
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj kc705_top_tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'kc705_top_tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /Software/xilinx/2022.2/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot kc705_top_tb_behav xil_defaultlib.kc705_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+UART log path is not set!
+Using default log file:
+uart_0.log
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 8397.301 ; gain = 0.004 ; free physical = 12435 ; free virtual = 40073
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 124
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 127
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 129
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 123
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 135
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 134
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 142
+step
+Stopped at time : 1002500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 141
+step
+Stopped at time : 1005 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1005 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1005 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1005 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1005 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 124
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 127
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 129
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 123
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 135
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 134
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 142
+step
+Stopped at time : 1007500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 141
+step
+Stopped at time : 1010 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1010 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1010 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1010 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1010 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 124
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 127
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 129
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 123
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 135
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 134
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 142
+step
+Stopped at time : 1012500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 141
+step
+Stopped at time : 1015 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1015 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1015 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1015 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1015 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 124
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 127
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 129
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 123
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 135
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 134
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 142
+step
+Stopped at time : 1017500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 141
+step
+Stopped at time : 1020 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1020 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1020 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1020 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1020 ns : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 99
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 111
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 112
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 124
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 127
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 129
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv" Line 123
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv" Line 28
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 135
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv" Line 134
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 142
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv" Line 141
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" Line 283
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" Line 282
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv" Line 283
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv" Line 282
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" Line 283
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv" Line 282
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv" Line 208
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv" Line 207
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv" Line 111
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv" Line 110
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv" Line 588
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv" Line 587
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv" Line 162
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv" Line 161
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv" Line 241
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv" Line 240
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" Line 38
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" Line 39
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" Line 39
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/axi4_rom.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/kc705_top_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axictrl_bus0.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/jtagcdc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/dmidebug.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/config_target_pkg.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/dmi/ic_dport.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/rom_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/misclib/apb_prci.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riscv_soc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/axi2apb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/pll/SysPLL_kc705.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/ic_axi4_to_l1.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/apb_slv.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/ambalib/types_amba_pkg.sv:]
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" Line 44
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/techmap/mem/ram_mmu_tech.sv" Line 36
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu.sv" Line 594
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/mmu.sv" Line 593
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch.sv" Line 158
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/fetch.sv" Line 157
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" Line 1037
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" Line 1036
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" Line 1037
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rv.sv" Line 1036
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" Line 420
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" Line 419
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" Line 420
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/dec_rvc.sv" Line 419
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 350
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 351
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 352
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 353
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 354
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 355
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 356
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 357
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 358
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 359
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 360
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 361
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 362
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 363
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 364
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 365
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 366
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 367
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 368
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 369
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 370
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 371
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 350
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 351
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 352
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 353
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 354
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 355
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 356
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 357
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 358
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 359
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 360
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 361
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 362
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 363
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 364
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 365
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 366
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 367
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 368
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 369
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 370
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 371
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 350
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 351
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 352
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 353
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 354
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 355
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 356
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 357
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 358
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 359
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 360
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 361
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 362
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 363
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 364
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 365
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 366
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 367
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 368
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 369
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 370
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 371
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+step
+Stopped at time : 1022500 ps : File "/home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/riverlib/core/decoder.sv" Line 349
+save_wave_config {/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg
+set_property xsim.view /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  8 16:55:16 2023...

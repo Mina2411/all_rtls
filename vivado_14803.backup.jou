@@ -1,0 +1,230 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jun  8 10:06:41 2023
+# Process ID: 14803
+# Current directory: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls
+# Command line: vivado
+# Log file: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/vivado.log
+# Journal file: /home/megmar00/Desktop/minas_full_prj_with_peripheral/all_rtls/vivado.jou
+# Running On: i80node2, OS: Linux, CPU Frequency: 3457.104 MHz, CPU Physical cores: 4, Host memory: 33521 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/minasfull.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source kc705_top_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0/ROM}} 
+remove_forces { {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/address} {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/clk} {/kc705_top_tb/tt/soc0/boot0/tech0/ROM/data} }
+current_wave_config {Untitled 1}
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0}} 
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source kc705_top_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/kc705_top_tb/tt/soc0/boot0/tech0}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/kc705_top_tb/tt/soc0/group0/\xslotcpu[0].cpux /river0/proc0/dec0}} 
+relaunch_sim
+relaunch_sim
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+save_wave_config {/home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg
+set_property xsim.view /home/megmar00/Desktop/riscv_vhdl/sv/prj/impl/kc705/minasfull/kc705_top_tb_behav.wcfg [get_filesets sim_1]
+close_sim

@@ -57,7 +57,7 @@ localparam int CFG_UART_SPEED_UP_RATE = 0;
 localparam CFG_BOOTROM_FILE =
 //		 {CFG_TOPDIR, "examples/helloworld/Helloworld_hexfiles_64bitcompiler/helloworld"};
 //                "/home/shemin00/Riscv_sv/examples/bootrom_tests/linuxbuild/bin/bootrom_tests"; //working version
-                  "/home/shemin00/Riscv_sv/examples/MyHelloWorld/bin/MyHelloWorld";
+                  "/home/megmar00/Desktop/riscv_vhdl_old/sv_without_makefile/Bachelor_thesis_repo/MyHelloWorld/bin/MyHelloWorld";
 //            {CFG_TOPDIR, "examples/boot/linuxbuild/bin/bootimage"};
 localparam CFG_BOOTROM_FILE_HEX = {CFG_BOOTROM_FILE, ".hex"};
 

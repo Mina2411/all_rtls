@@ -22,11 +22,6 @@ module axi4_new_slave#(
     output types_amba_pkg::dev_config_type cfg,
     input types_amba_pkg::axi4_slave_in_type i,
     output types_amba_pkg::axi4_slave_out_type o
-//    output [0:abits-1] w_req_addr,              //added test signals
-//    output [63:0] r_data,                       //added test signals
-//    output w_req,                               //added test signals
-//    output [7:0] w_wstrb,                       //added test signals
-//    output [63:0] w_data                        //added test signals
 );
 
 import types_amba_pkg::*;
@@ -40,11 +35,7 @@ logic [CFG_SYSBUS_DATA_BYTES-1:0] wb_req_wstrb;      //8 bits
 logic w_req_last;
 logic [CFG_SYSBUS_DATA_BITS-1:0] wb_rdata;           //64 bits
 
-//assign w_req_addr = wb_req_addr;            //assign test signals
-//assign r_data = wb_rdata;                   //assign test signals
-//assign w_req = w_req_write;                 //assign test signals
-//assign w_wstrb = wb_req_wstrb;              //assign test signals
-//assign w_data = wb_req_wdata;               //assign test signals
+
 
 
 axi_slv #(
@@ -80,7 +71,7 @@ Riscv_slave_tech #(
     .clk(clk),
     .addr(wb_req_addr[abits-1:0]),     
     .rdata(wb_rdata),
-    .we(w_req_write),
+    .w_enable(w_req_write),
     .wstrb(wb_req_wstrb),
     .wdata(wb_req_wdata)
 );

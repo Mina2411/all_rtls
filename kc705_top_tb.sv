@@ -18,12 +18,12 @@
   // FPGA 200 MHz
   `define SCLK_PERIOD 5ns
 `endif
-`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/rom_inferred_2x32.sv"
-`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/rom_inferred_32.sv"
-`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/pll/SysPLL_kc705.sv"
-`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/ram_fpga_distr.sv"
-`include "/home/shemin00/riscv_vhdl/sv/prj/common/vips/uart/sim_uart_receiver.v"
-`include "/home/shemin00/riscv_vhdl/sv/prj/common/vips/sdcard/sd_hc.sv"
+//`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/rom_inferred_2x32.sv"
+//`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/rom_inferred_32.sv"
+//`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/pll/SysPLL_kc705.sv"
+//`include "/home/shemin00/riscv_vhdl/sv/rtl/techmap/mem/ram_fpga_distr.sv"
+//`include "/home/shemin00/riscv_vhdl/sv/prj/common/vips/uart/sim_uart_receiver.v"
+//`include "/home/shemin00/riscv_vhdl/sv/prj/common/vips/sdcard/sd_hc.sv"
 
 import types_amba_pkg::*;
 module kc705_top_tb;
@@ -56,16 +56,7 @@ module kc705_top_tb;
     //! UART1 signals:
     logic i_uart1_rd;
     logic o_uart1_td;
-    logic [7:0] o_char_tx;
-    types_amba_pkg::mapinfo_type new_slv_map;                    //added test signals
-    types_amba_pkg::dev_config_type new_slv_cfg;                 //added test signals
-    types_amba_pkg::axi4_slave_in_type new_slv_i;                //added test signals
-    types_amba_pkg::axi4_slave_out_type new_slv_o;               //added test signals
-    logic [0:3] w_req_addr;                                      //added test signals
-    logic  [63:0] r_data;                                        //added test signals
-    logic  w_req;                                                //added test signals
-    logic  [7:0] w_wstrb;                                        //added test signals
-    logic  [63:0] w_data;                                        //added test signals
+
     // SPI SD-card signals:
     logic o_spi_cs;
     logic o_spi_sclk;
@@ -157,17 +148,7 @@ module kc705_top_tb;
     //! UART1 signals:
     .i_uart1_rd(i_uart1_rd),
     .o_uart1_td(o_uart1_td),
-    .o_char_tx(o_char_tx),
-    //slave test signals
-    .new_slv_map(new_slv_map),
-    .new_slv_cfg(new_slv_cfg),
-    .new_slv_i(new_slv_i),
-    .new_slv_o(new_slv_o),
-    .w_req_addr(w_req_addr),
-    .r_data(r_data),
-    .w_req(w_req),
-    .w_wstrb(w_wstrb),
-    .w_data(w_data), 
+
     // SPI SD-card signals:
     .o_spi_cs(o_spi_cs),
     .o_spi_sclk(o_spi_sclk),
